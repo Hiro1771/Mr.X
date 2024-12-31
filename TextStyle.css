@@ -36,7 +36,7 @@ img {
     padding: 10px;
     border: 1px solid black; /* Optional border for debugging */
     width: 800px; /* Matches the container width */
-    height: 800px;
+    height: 1600px;
     border: 6px solid black;
     background-color: lightgreen;
 }
