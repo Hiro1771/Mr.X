@@ -1,0 +1,70 @@
+* {
+    background-color: #BBA7A7;
+}
+
+img {
+    display: block; /* Removes inline gap caused by img being an inline element */
+    margin: 0;
+}
+
+.content-wrapper {
+    display: flex; /* Enables Flexbox for horizontal alignment */
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: flex-start; /* Aligns items at the top */
+    margin: 0 auto; /* Adds spacing between the banner and content */
+    gap: 40px; /* Adds space between .container and .Text */
+    background-color: #BBA7A7;
+}
+
+/* Styling for the container */
+.container {
+    text-align: center;
+    width: 375px;
+    background-color: #CFC2CC;
+    height: 800px;
+    padding: 10px;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    margin: 0; /* Removes any automatic margins */
+}
+
+
+.Text {
+    text-align: center;
+
+    padding: 10px;
+    border: 1px solid black; /* Optional border for debugging */
+    width: 975px; /* Matches the container width */
+    height: 150px;
+    border: 6px solid black;
+    background-color: lightgreen;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    font-size: 75px;
+    background-color: lightgreen;
+}
+
+#NHC {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #CFC2CC;
+}
+
+#HitCount {
+    height: 50px;
+    width: 250px;
+}
+
+.text-wrapper {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack Text divs vertically */
+    gap: 20px; /* Adds space between Text divs */
+}
+
+
+
+
